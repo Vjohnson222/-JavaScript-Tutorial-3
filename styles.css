@@ -1,0 +1,235 @@
+button {
+  border-radius: 5%;
+  margin: 30px;
+}
+.date {
+  margin-left: 40px;
+  color: yellowgreen;
+  font-size: 25px;
+}
+
+#red {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.blue {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.green {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.purple {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.pink {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.orange {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.yellow {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.teal {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.turquoise {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+.red {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  border-radius: 50%;
+  animation-name: example;
+  animation-duration: 4s;
+}
+#main-circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  background-color: black;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-name: move-div;
+  border: none;
+}
+#main-circle2 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 400px;
+  background-color: black;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: move-div2;
+  border: none;
+}
+#main-circle3 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 700px;
+  background-color: black;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-name: move-div3;
+  border: none;
+}
+#main-circle4 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  background-color: black;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-name: move-div4;
+  border: none;
+}
+
+#main-circle5 {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 1000px;
+  background-color: black;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-name: move-div5;
+  border: none;
+}
+@keyframes move-div {
+  63% {
+    top: 500px;
+    left: 630px;
+  }
+  66% {
+    top: 400px;
+    left: 220px;
+  }
+}
+
+@keyframes move-div2 {
+  63% {
+    top: 400px;
+    right: 630px;
+  }
+  66% {
+    top: 400px;
+    left: 50px;
+  }
+}
+@keyframes move-div3 {
+  63% {
+    top: 500px;
+    right: 630px;
+  }
+  66% {
+    top: 500px;
+    left: 170px;
+  }
+}
+@keyframes move-div4 {
+  66% {
+    top: 400px;
+    left: -100px;
+  }
+  63% {
+    top: 400px;
+    left: 630px;
+  }
+}
+
+@keyframes move-div5 {
+  63% {
+    top: 100px;
+    right: 830px;
+  }
+  66% {
+    top: 400px;
+    left: -50px;
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+button {
+  color: white;
+}
+body {
+  background-color: blueviolet;
+}
+#code {
+  float: right;
+  margin-top: 20px;
+}
